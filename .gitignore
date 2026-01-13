@@ -205,3 +205,17 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- Kronox (sensitive) ---
+credentials.json
+token.json
+service_account*.json
+client_secret*.json
+
+# If you store local configs
+config_local.py
+settings_local.py
+
+# Optional: local input/output folders
+importer/data/
+importer/output/
